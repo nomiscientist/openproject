@@ -42,7 +42,6 @@ npm-debug.log*
 *.swp
 
 # Ignore Visual Studio Code files
-/.vscode
 
 # Ignore Vim backup files
 *~
@@ -122,7 +121,6 @@ db/*.sql
 /.env.*.local
 
 # Local development docker
-/.env
 /docker-compose.override.yml
 
 # Local development direnv files
@@ -143,7 +141,7 @@ frontend/package-lock.json
 
 # Testing and nextcloud infrastructure
 acme.json
-.env.test
 
 # Generated seeders crowdin source file
 **/config/locales/en.seeders.yml
+config.bat
